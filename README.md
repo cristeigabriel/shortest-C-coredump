@@ -12,3 +12,6 @@ $ shortest-C-coredump/: gcc coredump.c
 ```
 $ shortest-C-coredump/: ./a.out
 ```
+
+# explaination
+this example tries to call an inexistent/unreadable memory address by prototyping it to a callable function, this resulting in a coredump
